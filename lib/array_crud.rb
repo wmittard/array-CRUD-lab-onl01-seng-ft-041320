@@ -11,25 +11,25 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  famous_cats.unshift ("felix")
+  array.unshift ("element")
 end
 
 def remove_element_from_end_of_array(array)
-  famous_cats.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  famous_cats.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  famous_cats.index ("blue")
+  array.index ("index")
 end
 
 def retrieve_first_element_from_array(array)
-  famous_cats.first
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
-  famous_cats.last
+  array.last
 end
